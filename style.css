@@ -96,7 +96,7 @@ nav.main-nav a.active::after {
   text-align: center;
   color: #fff;
   background: linear-gradient(rgba(9,63,68,0.72), rgba(9,63,68,0.55)),
-              url('images/Guriga.jpeg') center/cover no-repeat;
+              url('images/Guriga.png') center/cover no-repeat;
 }
 .hero-content { 
   max-width: 760px;
