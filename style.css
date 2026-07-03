@@ -96,7 +96,7 @@ nav.main-nav a.active::after {
   text-align: center;
   color: #fff;
   background: linear-gradient(rgba(9,63,68,0.72), rgba(9,63,68,0.55)),
-              url('images/Guriga.png') center/cover no-repeat;
+              url('Guriga.jpg') center/cover no-repeat;
 }
 .hero-content { 
   max-width: 760px;
@@ -208,13 +208,11 @@ section {
   object-fit: cover;
 }
 .gallery-caption {
-  position: absolute;
   inset: auto 0 0 0;
   background: linear-gradient(transparent, rgba(9,63,68,0.85));
   color: #fff;
   padding: 30px 16px 14px;
   font-weight: 600;
-  transform: translateY(100%);
 }
 .gallery-item:hover .gallery-caption { 
   transform: translateY(0);
@@ -476,9 +474,6 @@ form .btn {
   color: #fff; 
   padding: 8px 14px; 
   border-radius: 6px; 
-}
-.back-to-top:hover { 
-  background: #e08e45; 
 }
 .embed-wrapper {
   border-radius: 10px;
